@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  The issue arises when attempting to access the `uri` property of the selected image after a successful image selection.  The `uri` property is sometimes undefined or null, leading to errors in subsequent operations.  This is inconsistent and unpredictable, not always happening after selecting an image.
